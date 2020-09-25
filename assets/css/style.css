@@ -32,6 +32,10 @@ body {
     background-color: #02C874;
 }
 
+.bg-sunrise {
+    background-color: var(--sunrise);
+}
+
 /*Lists*/
 ol {
     list-style: decimal;
