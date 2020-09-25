@@ -1,0 +1,77 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --text-color: #2e2c2c;
+    --sunrise: #FFD525;
+    --lavender: #C095FA;
+    --ocean: #5651FF;
+    --avocado-mist: #02C874;
+    --fire-brick: #ad011d;
+}
+
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+
+    background-color: #eeeeee;
+    color: var(--text-color);
+}
+
+/*Color*/
+.black-text {
+    color: var(--black-color);
+}
+
+.bg-ocean {
+    background-color: var(--ocean);
+}
+
+.bg-avocado-mist {
+    background-color: #02C874;
+}
+
+/*Lists*/
+ol {
+    list-style: decimal;
+    margin-left: 23px;
+}
+
+/*Typography*/
+.bold-font{
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color)
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+/*Button*/
+.button-check-in p{
+    display: inline-block;
+    background-color: var(--lavender);
+    --black-color: #000000;
+    text-align: center;
+    padding: 10px 20px 10px 20px; border-radius: 5px;
+    pointer-events: none;
+}
+
+
+
+/*Hero page*/
+.table-of-contents {
+    border-radius: 4px;
+}
+
+/*Check-in*/
+.output-check-in p{
+    display: inline-block;
+    padding: 10px 20px 10px 20px; border-radius: 5px;
+    transition: background-color 0.5s;
+}
