@@ -2,6 +2,7 @@
     --white-color: #ffffff;
     --black-color: #000000;
     --text-color: #2e2c2c;
+    --grey-color: #eeeeee;
     --sunrise: #FFD525;
     --lavender: #C095FA;
     --ocean: #5651FF;
@@ -34,6 +35,14 @@ body {
 
 .bg-sunrise {
     background-color: var(--sunrise);
+}
+
+.bg-grey{
+    background-color: var(--grey-color);
+}
+
+.bg-fire-brick{
+    background-color: var(--fire-brick);
 }
 
 /*Lists*/
@@ -79,3 +88,34 @@ a {
     padding: 10px 20px 10px 20px; border-radius: 5px;
     transition: background-color 0.5s;
 }
+
+
+@media screen and (max-width: 600px) {
+    .matrix {
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  }
+
+
+/*STEPS*/
+
+  .display-none {
+      display: none;
+  }
+
+  .steps-button {
+    /* background-color: #eeeeee;  */
+    border: 1px solid #ebebeb;
+    border-width: 1px 0;
+    font-weight: 400;
+    transition: background-color .15s ease-in-out;
+    /* width: 20vw; */
+  }
+
+  .arrow {
+      width: 20px;
+      height: 20px;
+  }
+

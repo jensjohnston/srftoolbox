@@ -11,11 +11,11 @@
 let pageNumber = 0
 
 const pages = [
-    {copy: "Which emoji describes you mood right now?", background: "#FFD525"},
-    {copy: "What do you need today to help focus on your task", background: "#FFD525"},
-    {copy: "What will you be working on today?", background: "#FFD525"},
-    {copy: "If you could be a celebrity for a day, who would it be", background: "#FFD525"},
-    {copy: "If you were a super hero today, who would you be?", background: "#FFD525"}
+    {copy: "Which emoji describes you mood right now?", background: "#eeeeee"},
+    {copy: "What do you need today to help focus on your task", background: "#eeeeee"},
+    {copy: "What will you be working on today?", background: "#eeeeee"},
+    {copy: "If you could be a celebrity for a day, who would it be", background: "#eeeeee"},
+    {copy: "If you were a super hero today, who would you be?", background: "#eeeeee"}
 ]
 
 const checkInTag = document.querySelector(".button-check-in")
@@ -36,4 +36,12 @@ const updateCheckIn = function () {
 
 randomTag.addEventListener("click", function () {
     randomCheckIn()
+})
+
+
+let stepsButton = document.getElementById('steps-button')
+let stepsInformation = document.querySelector('.display-none')
+
+stepsButton.addEventListener("click", function () {
+    stepsInformation.classList.toggle("display-none")
 })
