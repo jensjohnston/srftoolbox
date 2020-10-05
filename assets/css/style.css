@@ -105,6 +105,10 @@ a {
       display: none;
   }
 
+  .steps-text {
+      display: none;
+  }
+  
   .steps-button {
     /* background-color: #eeeeee;  */
     border: 1px solid #ebebeb;
@@ -119,3 +123,25 @@ a {
       height: 20px;
   }
 
+
+
+  /*IDOARRT*/
+
+  .idoarrt-parent {
+     
+  }
+
+  span.circle-idoarrt {
+    border-radius: 200px;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .big-letter {
+    
+  }
+
+  

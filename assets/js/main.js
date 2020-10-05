@@ -39,9 +39,14 @@ randomTag.addEventListener("click", function () {
 })
 
 
-let stepsButton = document.getElementById('steps-button')
-let stepsInformation = document.querySelector('.display-none')
+/*STEPS button*/
 
-stepsButton.addEventListener("click", function () {
-    stepsInformation.classList.toggle("display-none")
-})
+let stepsButton = document.querySelector('.steps-button')
+let stepsInformation = document.querySelector('.display-none')
+let stepsText = document.querySelector('.steps-text')
+
+stepsButton.addEventListener("click", function(event) {
+     stepsText.classList.toggle('steps-text')
+ })
+
+
