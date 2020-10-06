@@ -51,10 +51,8 @@ stepsButton.forEach(button => {
       const text = document.querySelector(`.steps-text[data-text=${id}]`)
       text.classList.toggle("display-none")
 
-      const arrow = document.querySelectorAll('.arrow')
-      arrow.animate([
-          {transform: 'rotate(180)' + deg}
-      ])
+      const arrow = document.querySelector(`.arrow[data-arrow=${id}]`)
+      arrow.classList.toggle("rotate-arrow")
     })
   })
 

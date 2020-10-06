@@ -119,6 +119,11 @@ a {
   .arrow {
       width: 20px;
       height: 20px;
+      transition: transform 0.3s ease-in-out;
+  }
+
+  .rotate-arrow{
+    transform: rotate(-180deg);
   }
 
 
