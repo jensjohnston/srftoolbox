@@ -101,13 +101,11 @@ a {
 
 /*STEPS*/
 
-  .display-none {
-      display: none;
-  }
+ 
 
-  .steps-text {
+   .steps-text {
       display: none;
-  }
+  } 
   
   .steps-button {
     /* background-color: #eeeeee;  */

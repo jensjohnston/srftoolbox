@@ -1,12 +1,3 @@
-// const firstnames = ["John", "Jacob", "Eric", "Conroy", "Vincent", "Laurence", "Jack", "Harry", "Richard", "Michael", "Kevin", "Daniel", "Cody", "Brody", "Chase", "Cash", "Norman", "Trevor", "Todd", "Ellis", "Quentin", "Zachary", "Bruce", "Sam", "Horace", "George", "Tom", "Tim", "Wallace", "Walter", "Alex", "Alan", "Sean", "Seamus", "Dudley", "Duke", "Damian", "Nash", "Horton", "Robert", "Mitchell", ];
-
-
-// let readMore = document.getElementById('recruit')
-
-// readMore.onclick = function() {
-//     event.preventDefault();
-//     const firstname = firstnames[Math.floor(Math.random() * firstnames.length)];
-//   }
 
 let pageNumber = 0
 
@@ -41,12 +32,53 @@ randomTag.addEventListener("click", function () {
 
 /*STEPS button*/
 
-let stepsButton = document.querySelector('.steps-button')
-let stepsInformation = document.querySelector('.display-none')
-let stepsText = document.querySelector('.steps-text')
-
-stepsButton.addEventListener("click", function(event) {
-     stepsText.classList.toggle('steps-text')
- })
+// let stepsButton = document.querySelector('.steps-button')
+// let stepsText = document.querySelector('.steps-text')
 
 
+// stepsButton.addEventListener("click", function(event) {
+//      stepsText.classList.toggle('steps-text')
+//  })
+
+
+
+let stepsButton = document.querySelectorAll('.steps-button')
+
+
+stepsButton.forEach(button => {
+    button.addEventListener('click', () => {
+      const id = button.dataset.id
+      const text = document.querySelector(`.steps-text[data-text=${id}]`)
+    })
+  })
+
+
+// stepsButton.addEventListener("click", function() {
+//      stepsText.forEach(text, function() {
+//         text.classList.toggle('steps-text')
+//      })   
+//  })
+
+
+
+
+//1. Whenever we click a js-scroll kibj we want to run a function
+//2. We want to stop the link from jumping straight to our section
+//3. We want to find out the href attribute and then grab that element
+//4. Then scroll to it using document.querySelctor('Day-3')scrollIntoView({ behavior: 'smooth' })
+
+const scrollLinks = document.querySelectorAll('.js-scroll')
+
+scrollLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+
+        event.preventDefault()
+        
+        const href = link.getAttribute('href')
+
+        document.querySelector(href).scrollIntoView({
+            behavior: 'smooth'
+        })
+
+    })
+})

@@ -1,0 +1,17 @@
+.shape {
+    position: absolute;
+  }
+  
+  .splash {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/images/splash.svg);
+      /* this will contain the background image inside the edges of our box */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    top: 0%;
+    left: 0%;
+  }
+  
