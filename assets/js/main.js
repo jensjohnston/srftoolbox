@@ -43,12 +43,18 @@ randomTag.addEventListener("click", function () {
 
 
 let stepsButton = document.querySelectorAll('.steps-button')
-
+let stepsText = document.querySelectorAll('.steps-text')
 
 stepsButton.forEach(button => {
     button.addEventListener('click', () => {
-      const id = button.dataset.id
+      const id = button.getAttribute("data-id")
       const text = document.querySelector(`.steps-text[data-text=${id}]`)
+      text.classList.toggle("display-none")
+
+      const arrow = document.querySelectorAll('.arrow')
+      arrow.animate([
+          {transform: 'rotate(180)' + deg}
+      ])
     })
   })
 

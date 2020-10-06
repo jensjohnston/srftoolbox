@@ -102,10 +102,10 @@ a {
 /*STEPS*/
 
  
-
-   .steps-text {
+  .display-none {
       display: none;
-  } 
+  }
+   
   
   .steps-button {
     /* background-color: #eeeeee;  */
