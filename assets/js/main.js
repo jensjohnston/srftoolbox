@@ -88,36 +88,3 @@ scrollLinks.forEach(link => {
 })
 
 
-inView('.section-animation')
-    .on('enter', section => {
-      section.classList.add('in-viewport')
-    })
-    .on('exit', section => {
-        section.classList.remove('in-viewport')
-    });
-
-    inView.threshold(0.5)
-
-
-
-
-const sectionAnimations = document.querySelectorAll('.section-animation')
-
-sectionAnimations.forEach((section, index) => {
-
-
-  const titles = section.querySelectorAll('.title-animation')
-  const shapes = section.querySelectorAll('.shape')
-
-  
-  titles.forEach((title, index) => {
-    const delay = index * 200
-    artist.style.transitionDelay = delay + 'ms'
-  })
-
-  shapes.forEach((shape, index) => {
-    const delay = (shapes.length + index) * 200
-    shape.style.transitionDelay = delay + 'ms'
-  })
-
-})
