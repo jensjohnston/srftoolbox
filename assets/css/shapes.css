@@ -1,17 +1,41 @@
-.shape {
-    position: absolute;
-  }
-  
-  .splash {
-    width: 100px;
-    height: 100px;
-    background-image: url(/assets/images/splash.svg);
-      /* this will contain the background image inside the edges of our box */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --text-color: #2e2c2c;
+  --grey-color: #eeeeee;
+  --sunrise: #FFD525;
+  --lavender: #C095FA;
+  --ocean: #5651FF;
+  --avocado-mist: #02C874;
+  --fire-brick: #ad011d;
+  --frank-orange: #FF7347;
+}
 
-    top: 0%;
-    left: 0%;
-  }
+
+.shape {
+  position: absolute;
+}
+
+.circle {
+  animation: pulsate 3s infinite;
+  height: 400px;
+  width: 400px;
+  top: 10%;
+  left: 10%;
+  background-color: var(--frank-orange);
+  border-radius: 100%;
+}
+
+.check-in-smiley {
+  top: 30%;
+  left: 25%;
+  height: 100px;
+  width: 100px;
+  background-image: url(/assets/images/check-in.svg);
+	/* this will contain the background image inside the edges of our box */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
   

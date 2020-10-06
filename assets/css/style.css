@@ -8,6 +8,7 @@
     --ocean: #5651FF;
     --avocado-mist: #02C874;
     --fire-brick: #ad011d;
+    --frank-orange: #FF7347;
 }
 
 
@@ -148,3 +149,18 @@ a {
   }
 
   
+
+
+
+
+
+  /*Check-in HERO*/
+  .section-animation {
+      position: relative;
+  }
+
+
+
+  .z-index {
+      z-index: 100;
+  }
