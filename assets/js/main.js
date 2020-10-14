@@ -29,16 +29,17 @@ randomTag.addEventListener("click", function () {
     randomCheckIn()
 })
 
+const checkInQuestions = [
+    {copy: "Which emoji describes you mood right now?", background: "#eeeeee"},
+    {copy: "What do you need today to help focus on your task", background: "#eeeeee"},
+    {copy: "What will you be working on today?", background: "#eeeeee"},
+    {copy: "If you could be a celebrity for a day, who would it be", background: "#eeeeee"},
+    {copy: "If you were a super hero today, who would you be?", background: "#eeeeee"}
+]
 
-/*STEPS button*/
 
-// let stepsButton = document.querySelector('.steps-button')
-// let stepsText = document.querySelector('.steps-text')
+const checkinButton = document.querySelector('.button-check-out')
 
-
-// stepsButton.addEventListener("click", function(event) {
-//      stepsText.classList.toggle('steps-text')
-//  })
 
 
 
@@ -86,5 +87,25 @@ scrollLinks.forEach(link => {
 
     })
 })
+
+
+
+
+document.addEventListener("scroll", function() {
+    const topViewport = window.pageYOffset
+    const midViewPort = topViewport + (window.innerHeight / 2)
+
+    console.log(midViewPort)
+
+    const sectionsParallax = document.querySelectorAll("section.parallax")
+
+    sectionsParallax.forEach(section => {
+        const topSection = section.offsetTop
+        const midSection = topSection + (section.offsetHeight / 2)
+        
+        const tag = section.querySelector("div.square")
+    })
+})
+
 
 
