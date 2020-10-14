@@ -92,6 +92,17 @@ a {
     pointer-events: none;
 }
 
+.play-game-button p{
+    display: inline-block;
+    background-color: var(--lavender);
+    --black-color: #000000;
+    text-align: center;
+    padding: 10px 20px 10px 20px; border-radius: 5px;
+    pointer-events: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: karla;
+}
 
 
 /*Hero page*/
