@@ -116,8 +116,8 @@ const fadeHeader = function () {
         return x * x * x;
       }
 
-    heroTag.style.opacity = 1 - easing(pixels / 500);
-    splashTag.style.opacity = 1 - easing(pixels / 500);
+    heroTag.style.opacity = 1 - easing(pixels / 700);
+    splashTag.style.opacity = 1 - easing(pixels / 700);
 }
 
 window.addEventListener("scroll", function() {
