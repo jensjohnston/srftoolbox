@@ -25,6 +25,28 @@
     }
 }
 
+@keyframes fade-in-up {
+    0% {
+
+        transform: translate(0, 2000px);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 span.light-bulb{
     animation: scale-light-bulb 3s;
     
@@ -230,3 +252,15 @@ a {
               0 16px 16px rgba(0,0,0,0.11), 
               0 32px 32px rgba(0,0,0,0.11);
   }
+
+
+  /*ANIMATION*/
+
+  .fade-in {
+      animation: fade-in 0.4s 0.5s both;
+  }
+
+  .table-of-contents {
+    animation: fade-in-up 0.8s 0.5s both;
+  }
+
