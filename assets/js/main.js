@@ -95,7 +95,7 @@ document.addEventListener("scroll", function() {
     const topViewport = window.pageYOffset
     const midViewPort = topViewport + (window.innerHeight / 2)
 
-    console.log(midViewPort)
+
 
     const sectionsParallax = document.querySelectorAll("section.parallax")
 
@@ -104,7 +104,24 @@ document.addEventListener("scroll", function() {
         const midSection = topSection + (section.offsetHeight / 2)
         
         const tag = section.querySelector("div.square")
+        
     })
+})
+
+const fadeHeader = function () {
+    const heroTag = document.querySelector(".hero-page")
+    const splashTag = document.querySelector("svg.splash")
+    const pixels = window.pageYOffset
+    const easing = function (x) {
+        return x * x * x;
+      }
+
+    heroTag.style.opacity = 1 - easing(pixels / 500);
+    splashTag.style.opacity = 1 - easing(pixels / 500);
+}
+
+window.addEventListener("scroll", function() {
+    fadeHeader()
 })
 
 
