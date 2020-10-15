@@ -256,7 +256,7 @@ a {
 
   /*ANIMATION*/
 
-  .fade-in {
+  .fade-in-animation {
       animation: fade-in 0.4s 0.5s both;
   }
 
