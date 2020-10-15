@@ -9,6 +9,7 @@
     --avocado-mist: #02C874;
     --fire-brick: #ad011d;
     --frank-orange: #FF7347;
+    --pink-lemonade: #ff8082; 
 }
 
 @keyframes scale-light-bulb {
@@ -42,6 +43,10 @@ body {
     color: var(--black-color);
 }
 
+.white-text{
+    color: var(--white-color);
+}
+
 .bg-ocean {
     background-color: var(--ocean);
 }
@@ -60,6 +65,14 @@ body {
 
 .bg-fire-brick{
     background-color: var(--fire-brick);
+}
+
+.bg-pink-lemonade {
+    background-color: var(--pink-lemonade);
+}
+
+.bg-frank-ocean{
+    background-color: var(--frank-orange);
 }
 
 /*Lists*/
@@ -196,4 +209,10 @@ a {
 
   .z-index {
       z-index: 100;
+  }
+
+  .divider {
+      width: 100%;
+      height: 1px;
+      background-color: #7d7d7d;
   }
