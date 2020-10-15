@@ -5,6 +5,7 @@
     --grey-color: #eeeeee;
     --sunrise: #FFD525;
     --lavender: #C095FA;
+    --almost-lavender: #d845af;
     --ocean: #5651FF;
     --avocado-mist: #02C874;
     --fire-brick: #ad011d;
@@ -73,6 +74,10 @@ body {
 
 .bg-frank-ocean{
     background-color: var(--frank-orange);
+}
+
+.bg-almost-lavender {
+    background-color: var(--almost-lavender);
 }
 
 /*Lists*/
@@ -215,4 +220,13 @@ a {
       width: 100%;
       height: 1px;
       background-color: #eee;
+  }
+
+  .box-shadow{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 8px 8px rgba(0,0,0,0.11), 
+              0 16px 16px rgba(0,0,0,0.11), 
+              0 32px 32px rgba(0,0,0,0.11);
   }
