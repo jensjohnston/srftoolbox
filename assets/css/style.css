@@ -81,6 +81,10 @@ body {
     background-color: var(--ocean);
 }
 
+.bg-almost-black{
+    background-color: #aaa;
+}
+
 .bg-avocado-mist {
     background-color: #02C874;
 }
