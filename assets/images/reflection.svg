@@ -1,31 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 951 951" style="enable-background:new 0 0 951 951;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#606060;}
-	.st1{fill:#D845AF;}
-	.st2{fill:#FFB8EB;}
-	.st3{fill:none;stroke:#FFB8EB;stroke-width:11.6456;stroke-linecap:round;}
-</style>
-<rect class="st0" width="951" height="951"/>
-<path class="st1" d="M377.2,669.8c52,0,94.2-42.2,94.2-94.2l0,0c0-52-42.2-94.2-94.2-94.2l0,0c-52,0-94.2,42.2-94.2,94.2v94.2H377.2
-	z"/>
-<path class="st1" d="M471.4,377.2c0-52-42.2-94.2-94.2-94.2l0,0c-52,0-94.2,42.2-94.2,94.2l0,0c0,52,42.2,94.2,94.2,94.2h94.2V377.2
-	z"/>
-<path class="st1" d="M481,575.6c0,52,42.2,94.2,94.2,94.2l0,0c52,0,94.2-42.2,94.2-94.2l0,0c0-52-42.2-94.2-94.2-94.2H481V575.6z"/>
-<path class="st1" d="M575.2,283c-52,0-94.2,42.2-94.2,94.2l0,0c0,52,42.2,94.2,94.2,94.2l0,0c52,0,94.2-42.2,94.2-94.2V283H575.2z"
-	/>
-<ellipse class="st2" cx="355.9" cy="361.3" rx="8.4" ry="8.3"/>
-<ellipse class="st2" cx="399.3" cy="361.3" rx="8.4" ry="8.3"/>
-<path class="st3" d="M407.7,390.4c-14.1,15.9-46.2,15.9-60.2,0"/>
-<ellipse class="st2" cx="559.3" cy="399.3" rx="8.3" ry="8.4"/>
-<ellipse class="st2" cx="559.3" cy="355.9" rx="8.3" ry="8.4"/>
-<path class="st3" d="M588.3,347.5c15.9,14.1,15.9,46.2,0,60.2"/>
-<ellipse class="st2" cx="596.4" cy="591" rx="8.4" ry="8.3"/>
-<ellipse class="st2" cx="553" cy="591" rx="8.4" ry="8.3"/>
-<path class="st3" d="M544.5,562c14.1-15.9,46.2-15.9,60.2,0"/>
-<ellipse class="st2" cx="393.9" cy="553" rx="8.3" ry="8.4"/>
-<ellipse class="st2" cx="393.9" cy="596.4" rx="8.3" ry="8.4"/>
-<path class="st3" d="M364.9,604.8c-15.9-14.1-15.9-46.2,0-60.2"/>
+<svg width="951" height="951" viewBox="0 0 951 951" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="951" height="951" fill="white"/>
+<path d="M377.206 669.799C429.235 669.799 471.412 627.621 471.412 575.593V575.593C471.412 523.565 429.235 481.387 377.206 481.387V481.387C325.178 481.387 283 523.565 283 575.593L283 669.799L377.206 669.799Z" fill="#D845AF"/>
+<path d="M471.412 377.206C471.412 325.177 429.235 283 377.206 283V283C325.178 283 283 325.177 283 377.206V377.206C283 429.234 325.178 471.412 377.206 471.412L471.412 471.412L471.412 377.206Z" fill="#D845AF"/>
+<path d="M481.004 575.593C481.004 627.621 523.181 669.799 575.21 669.799V669.799C627.238 669.799 669.416 627.621 669.416 575.593V575.593C669.416 523.565 627.238 481.387 575.21 481.387L481.004 481.387L481.004 575.593Z" fill="#D845AF"/>
+<path d="M575.21 283C523.181 283 481.004 325.177 481.004 377.206V377.206C481.004 429.234 523.181 471.412 575.21 471.412V471.412C627.238 471.412 669.416 429.234 669.416 377.206L669.416 283L575.21 283Z" fill="#D845AF"/>
+<ellipse rx="8.43411" ry="8.34735" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 355.902 361.34)" fill="#FFB8EB"/>
+<ellipse rx="8.43401" ry="8.34735" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 399.276 361.34)" fill="#FFB8EB"/>
+<path d="M407.71 390.356C393.653 406.256 361.523 406.256 347.467 390.356" stroke="#FFB8EB" stroke-width="11.6456" stroke-linecap="round"/>
+<ellipse rx="8.43411" ry="8.34735" transform="matrix(-4.37114e-08 1 1 4.37114e-08 559.296 399.323)" fill="#FFB8EB"/>
+<ellipse rx="8.43401" ry="8.34735" transform="matrix(-4.37114e-08 1 1 4.37114e-08 559.296 355.949)" fill="#FFB8EB"/>
+<path d="M588.312 347.515C604.212 361.571 604.212 393.701 588.312 407.758" stroke="#FFB8EB" stroke-width="11.6456" stroke-linecap="round"/>
+<ellipse rx="8.43411" ry="8.34735" transform="matrix(1 0 0 -1 596.358 591.017)" fill="#FFB8EB"/>
+<ellipse rx="8.43401" ry="8.34735" transform="matrix(1 0 0 -1 552.984 591.017)" fill="#FFB8EB"/>
+<path d="M544.55 562C558.607 546.1 590.736 546.1 604.793 562" stroke="#FFB8EB" stroke-width="11.6456" stroke-linecap="round"/>
+<ellipse rx="8.43411" ry="8.34735" transform="matrix(1.31134e-07 -1 -1 -1.31134e-07 393.885 553.032)" fill="#FFB8EB"/>
+<ellipse rx="8.43401" ry="8.34735" transform="matrix(1.31134e-07 -1 -1 -1.31134e-07 393.885 596.407)" fill="#FFB8EB"/>
+<path d="M364.868 604.841C348.968 590.784 348.968 558.654 364.868 544.598" stroke="#FFB8EB" stroke-width="11.6456" stroke-linecap="round"/>
 </svg>
